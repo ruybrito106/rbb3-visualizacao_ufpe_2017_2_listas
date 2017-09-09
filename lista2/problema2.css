@@ -1,0 +1,36 @@
+svg {
+  font: 10px;
+  font-family: cursive;
+  padding: 20px;
+}
+
+.axis line {
+  stroke: #ddd;
+}
+
+.axis path {
+  display: none;
+}
+
+.axis,
+.frame {
+  shape-rendering: crispEdges;
+}
+
+.extent {
+  fill: #000;
+  fill-opacity: .125;
+}
+
+.grafico {
+  fill: none;
+  stroke: #aaa;
+}
+
+circle {
+  fill-opacity: .7;
+}
+
+circle.hidden {
+  fill: #ccc !important;
+}
